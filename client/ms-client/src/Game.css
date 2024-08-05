@@ -1,0 +1,23 @@
+.game-board-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 20px; /* Add some space before the rules card */
+}
+
+.game-board {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.game-board > div {
+  white-space: nowrap;
+}
+
+.game-board > div > span {
+  display: inline-block;
+}
+
+.game-board img {
+  width: 50px; /* Adjust based on your preference */
+  height: 50px; /* Adjust based on your preference */
+}
